@@ -91,6 +91,7 @@ class Page extends Component {
         <div className='page'>
           <div>
             <h2>Attributions</h2>
+            <a href='https://thenounproject.com/term/korean/710113/'>Korean Icon by Oriol Sallés from The Noun Project</a>
             <a href='https://youtu.be/4hnfs7-jauA'>Seoul Video by Finnair on YouTube</a>
             <a href='https://unsplash.com/photos/XX3ooUPVBQw'>Namsan Photo 1 by rawkkim on Unsplash</a>
             <a href='https://unsplash.com/photos/GVQWTHpT1KE'>Namsan Photo 2 by Bundo Kim on Unsplash</a>
