@@ -7,22 +7,25 @@
 }
 
 /* https://www.w3schools.com/howto/howto_css_fullscreen_video.asp */
-
 .background {
   min-height: 100%;
-  min-width: 100%; 
+  min-width: 100%;
   position: fixed;
 }
 
-.content {
+.page {
   align-items: center;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   display: flex;
   justify-content: center;
   min-height: 100%;
   min-width: 100%;
   position: fixed;
   text-align: center;
+}
+
+.content {
+  width: 60%;
 }
 
 .button {
@@ -32,18 +35,8 @@
   margin: 0 10px;
   position: fixed;
   text-align: center;
-  transition: color .2s ease-out, fill .2s ease-out;
+  transition: .2s;
   width: 100px;
-}
-
-.prev {
-  left: 0;
-  top: 50%;
-}
-
-.next {
-  right: 0;
-  top: 50%;
 }
 
 .button:hover {
@@ -54,6 +47,16 @@
 .button:active {
   color: #c7c7c7;
   fill: #c7c7c7;
+}
+
+.prev {
+  left: 0;
+  top: 50%;
+}
+
+.next {
+  right: 0;
+  top: 50%;
 }
 
 h1, h2, h3 {
@@ -78,35 +81,82 @@ h5 {
 }
 
 p {
-  font-size: 1.5em;
-  text-align: justify; 
+  margin: 10px 0 40px;
 }
 
-.location {
+.thumb {
+  border-radius: 5px;
+  cursor: pointer;
+  height: 160px;
+  margin: 0 1%;
+  object-fit: cover;
+  transition: .2s;
+  width: 30%;
+}
+
+.thumb:hover {
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.6);
+  transform: translateY(-5px);
+}
+
+/* https://www.w3schools.com/howto/howto_css_modal_images.asp */
+.modal {
+  align-items: center;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+  min-width: 100%;
+  position: fixed;
+}
+
+.modal-image {
+  margin-top: 40px; 
   width: 60%;
 }
 
-.gangnam {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/bg-gangnam.jpg');
-  background-size: cover;
+.close {
+  color: #c7c7c7;
+  font-size: 3em;
+  font-weight: bold;
+  position: absolute;
+  right: 40px;
+  top: 20px;
+  transition: .2s;
 }
 
-.coex {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/bg-coex.jpg');
-  background-size: cover;
+.close:hover {
+  color: #fafafa;
 }
 
-.namsan {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/bg-namsan.jpg');
-  background-size: cover;
+.close:active {
+  color: #c7c7c7;
 }
 
-.bukchon {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/bg-bukchon.jpg');
-  background-size: cover;
+a {
+  background: #c7c7c7;
+  border-radius: 20px;
+  color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  display: block;
+  font-size: 0.8em;
+  font-weight: bold;
+  margin: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: .2s;
 }
 
-.gyeongbok {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/bg-gyeongbok.jpg');
-  background-size: cover;
+a:hover {
+  background: #fafafa;
+}
+
+a:active {
+  background: #c7c7c7;
+}
+
+.video-source {
+  bottom: 0;
+  position: fixed;
 }
