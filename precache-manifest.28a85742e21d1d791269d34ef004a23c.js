@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/SSUI-Seoul/static/media/bukchon3.63c47e79.jpg"
   },
   {
-    "revision": "5a30dbb61337aa80e8dc",
-    "url": "/SSUI-Seoul/static/css/main.e69173d3.chunk.css"
+    "revision": "e53626c8b3adc3efce8e",
+    "url": "/SSUI-Seoul/static/css/main.013adc52.chunk.css"
   },
   {
     "revision": "03e57a5abaf7cda45ac5",
@@ -72,8 +72,8 @@ self.__precacheManifest = [
     "url": "/SSUI-Seoul/static/media/bukchon2.254f9400.jpg"
   },
   {
-    "revision": "5a30dbb61337aa80e8dc",
-    "url": "/SSUI-Seoul/static/js/main.5a30dbb6.chunk.js"
+    "revision": "e53626c8b3adc3efce8e",
+    "url": "/SSUI-Seoul/static/js/main.e53626c8.chunk.js"
   },
   {
     "revision": "285390dbd89c40a5c12f8b9f0bae7d36",
@@ -140,7 +140,7 @@ self.__precacheManifest = [
     "url": "/SSUI-Seoul/static/media/seoul.39b04404.mp4"
   },
   {
-    "revision": "76c5c9eecc26e2328fe3fafd9334a0dc",
+    "revision": "0a1a04f8900977b834b19a42d35123aa",
     "url": "/SSUI-Seoul/index.html"
   }
 ];
